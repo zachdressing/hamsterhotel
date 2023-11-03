@@ -14,7 +14,7 @@
 
 <body>
     <div id="nav1" style="font-family: Dosis, sans-serif;">
-        <nav class="navbar navbar-expand-lg bg-body-tertiary navbar2 container-fluid" style="width: 100%; padding: 0;">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary navbar2" style="width: 100%; padding: 0;">
             <div class="container-fluid" style="padding:0">
                 <div class="collapse navbar-collapse navbar1" id="navbarNavAltMarkup">
                     <div class="navbar-nav" style="height: 120px;">
@@ -44,29 +44,41 @@
             </div>
         </div>
     </div>
-
-    <div id="Overview" class="Overview container-fluid">
-        <div class="overviewImage"></div>
-        <div class="overviewText">
-            <h1 class="overviewTextH1">Welcome to a Hamster's Paradise</h1>
-            <p class="overviewTextP">
-                Nestled in the heart of Cavia California, La Petite Maison is a luxury hotel designed for the small
-                mammal with extravagance in mind. Escape to the warm comforts of stunning rooms,
-                a relaxing spa, and a pool with a beach side view.
-                <br>
-                <br>
-                Inspired by the warm beauty of the California Coast, we invite you to enjoy the rich accommodations
-                along with our unmatched luxury.
-                Discover the satisfaction of indulging in our quality rooms, and thank you for choosing La Petite
-                Maison.
-            </p>
-            <div class="overviewAwards" style="display: grid; grid-template-columns: 30% 30% 25%; padding-top: 1%;">
-                <img src="./assets/awardfinest.png" alt="Finest Award" class="awardImg">
-                <img src="./assets/awardsatisfaction.png" alt="Satisfaction Award" class="awardImg">
-                <img src="./assets/awardgenuine.png" alt="Genuine Award" class="awardImg">
+    <br>
+    <br>
+    <div id="Overview" class="Overview d-flex justify-content-center align-items-center">
+        <div class="row d-flex justify-content-center align-items">
+            <div class="col-4 overviewImage img-fluid" style="padding: 0;"></div>
+            <div class="col-8 overviewText">
+                <h1 class="overviewTextH1">Welcome to a Hamster's Paradise</h1>
+                <p class="overviewTextP">
+                    Nestled in the heart of Cavia California, La Petite Maison is a luxury hotel designed for the
+                    small
+                    mammal with extravagance in mind. Escape to the warm comforts of stunning rooms,
+                    a relaxing spa, and a pool with a beach side view.
+                    <br>
+                    <br>
+                    Inspired by the warm beauty of the California Coast, we invite you to enjoy the rich
+                    accommodations
+                    along with our unmatched luxury.
+                    Discover the satisfaction of indulging in our quality rooms, and thank you for choosing La
+                    Petite
+                    Maison.
+                </p>
+                <div class="row d-flex align-items-end">
+                    <div class="col"> <img src="./assets/awardfinest.png" alt="Finest Award" class="img-fluid">
+                    </div>
+                    <div class="col"> <img src="./assets/awardsatisfaction.png" alt="Satisfaction Award"
+                            class="img-fluid">
+                    </div>
+                    <div class="col"> <img src="./assets/awardgenuine.png" alt="Genuine Award" class="img-fluid">
+                    </div>
+                </div>
             </div>
         </div>
     </div>
+    <br>
+    <br>
 
     <div id="Rooms" class="roomsDiv">
         <div class="RoomsHeader">
@@ -74,17 +86,17 @@
                 Rooms</h1>
         </div>
         <div class="RoomsCards">
-            <div class="card rounded-0">
+            <div class="card rounded-0" style="grid-column-start: 2;">
                 <img src="./assets/room1.jpg" class="card-img-top rounded-0 cardImg" alt="Room 1">
                 <div class="card-body d-flex flex-column">
                     <h4 class="card-title" style="font-family: Dosis;  margin-bottom: 2.5%;">Queen Room</h4>
-                    <h5 style="font-size: small;  margin-bottom: 2.5%;">850 SQ FT room with city view</h5>
+                    <h5 style="font-size: small;  margin-bottom: 2.5%;"><b>850 SQ FT room with city view</b></h5>
                     <ul>
                         <li>One queen sized bed</li>
                         <li>Seed Bar, fireplace and large balcony</li>
                         <li>Small kitchen with a refrigerator and stove</li>
                     </ul>
-                    <a href="#" class="btn btn-primary rounded-0 mt-auto" style="width: 45.7%;">Reserve</a>
+                    <a href="#Reservation" class="btn btn-primary rounded-0 mt-auto" style="width: 45.7%;">Reserve</a>
 
                 </div>
             </div>
@@ -92,31 +104,33 @@
                 <img src="./assets/room3.jpg" class="card-img-top rounded-0 cardImg" alt="Room 2">
                 <div class="card-body d-flex flex-column">
                     <h4 class="card-title" style="font-family: Dosis;  margin-bottom: 2.5%;">King Room</h4>
-                    <h5 style="font-size: small;  margin-bottom: 2.5%;">950 SQ FT room with city view</h5>
+                    <h5 style="font-size: small;  margin-bottom: 2.5%;"><b>950 SQ FT room with city view</b></h5>
                     <ul>
                         <li>One queen sized bed</li>
                         <li>Seed Bar, fireplace and large balcony</li>
                         <li>Small kitchen with a refrigerator and stove</li>
                     </ul>
-                    <a href="#" class="btn btn-primary rounded-0 mt-auto" style="width: 45.7%;">Reserve</a>
+                    <a href="#Reservation" class="btn btn-primary rounded-0 mt-auto" style="width: 45.7%;">Reserve</a>
                 </div>
             </div>
             <div class="card rounded-0 ">
                 <img src="./assets/room2.jpg" class="card-img-top rounded-0 cardImg" alt="Room 3">
                 <div class="card-body d-flex flex-column">
                     <h4 class="card-title" style="font-family: Dosis; margin-bottom: 2.5%;">Beach Side Suite</h4>
-                    <h5 style="font-size: small;  margin-bottom: 2.5%;">1500 SQ FT Suite with beach view</h5>
+                    <h5 style="font-size: small;  margin-bottom: 2.5%;"><b>1500 SQ FT Suite with beach view</b></h5>
                     <ul>
                         <li>One california king sized bed</li>
                         <li>Second room with fireplace, hot tub, and balcony</li>
                         <li>Seed Bar and Coffee Station</li>
                         <li>Full kitchen with a refrigerator, stove, and island</li>
                     </ul>
-                    <a href="#" class="btn btn-primary rounded-0 mt-auto" style="width: 45.7%;">Reserve</a>
+                    <a href="#Reservation" class="btn btn-primary rounded-0 mt-auto" style="width: 45.7%;">Reserve</a>
                 </div>
             </div>
         </div>
     </div>
+
+
     <div id="Packages" class="container" style="width: 100%; height: 969/4612%; margin-bottom: 5%;">
         <div>
             <h1 style="font-family: Dosis, Regular; text-align: center; padding-top: 5%; margin-bottom: 2%;">Packages
@@ -159,7 +173,8 @@
     </div>
 
     <div id="Amenities" class="amenities" style="height: 11.8%;">
-        <div class="row" style="text-align: center; font-family: Dosis, Regular; margin-bottom: 5%; padding-top: 2.5%;">
+        <div class="row w-100"
+            style="text-align: center; font-family: Dosis, Regular; margin-bottom: 5%; padding-top: 2.5%;">
             <h1 style="color: white;">Amenities</h1>
             <p style="color: white;">Here at La Petite Maison, we invite you to enjoy our services in hopes that you
                 have the most relaxing
@@ -204,10 +219,7 @@
             style="color: white; background-color:  rgba(0, 3, 36, 1); width: 100%; margin-left: auto; margin-right: auto;">
             <h1 style="font-family: Dosis; text-align: center; margin-top: 2.5%; margin-bottom: 2.5%;">Reserve a Room
             </h1>
-        </div>
-        <div class="row"
-            style="background-color:  rgba(0, 3, 36, 1); width: 100%; margin-left: auto; margin-right: auto;">
-            <div class="row" style="margin-left: 2.5%; font-family: 'Source Sans Pro';">
+            <div class="row" style="margin-left: 2%; font-family: 'Source Sans Pro';">
                 <div class="col">
                     <p style="color: white;">Check-in</p>
                 </div>
@@ -222,7 +234,7 @@
                 </div>
                 <div class="col"></div>
             </div>
-            <div class="row" style="margin-bottom: 5%; margin-left: 2.5%;">
+            <div class="row" style="margin-bottom: 5%; margin-left: 2%;">
                 <div class="col"><input type="text" class="form-control rounded-0"></div>
                 <div class="col"><input type="text" class="form-control rounded-0"></div>
                 <div class="col"><input type="text" class="form-control rounded-0"></div>
@@ -235,7 +247,7 @@
         <div class="resImg"></div>
     </div>
 
-    <div class="footer">
+    <div id="Contact" class="footer">
         <div class="" style="height: 100%;">
             <div class="row footImg">
                 <img src="./assets/Logo.png">
