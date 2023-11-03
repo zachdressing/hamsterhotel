@@ -1,32 +1,32 @@
-body{
+body {
     width: 100%;
     height: 4612px;
 }
 
-a+a{
+a+a {
     margin-right: 1%;
     margin-left: 1%;
 }
 
-.navbar1{
+.navbar1 {
     background-color: rgba(0, 3, 36, 1);
-    display: flex; 
-    justify-content: center; 
-    align-items: center; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 120px;
     font-size: 1.25em;
     padding-bottom: 10px;
 }
 
-.nav-link{
+.nav-link {
     border: 2px solid transparent;
 }
 
-.nav-link:hover{
+.nav-link:hover {
     border: 2px solid white;
 }
 
-.headerImage{
+.headerImage {
     width: 100%;
     height: 500px;
     background-image: url(../assets/header.jpg);
@@ -39,23 +39,23 @@ a+a{
     justify-content: center;
 }
 
-.headerText{
-    font-family: Dosis, sans-serif; 
-    color: white; 
-    padding-top: 59px; 
+.headerText {
+    font-family: Dosis, sans-serif;
+    color: white;
+    padding-top: 59px;
     font-size: 1.25em;
 }
 
-.headerTextP{
-    display: flex; 
-    justify-content: center; 
+.headerTextP {
+    display: flex;
+    justify-content: center;
     font-size: .8em;
 }
 
-.headerCenterBox{
-    width: 49.2%; 
-    height: 232px; 
-    background-color: rgba(0, 3, 36, 1); 
+.headerCenterBox {
+    width: 49.2%;
+    height: 232px;
+    background-color: rgba(0, 3, 36, 1);
     opacity: 80%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -65,16 +65,16 @@ a+a{
     justify-content: center;
 }
 
-.Overview{
-    display: grid; 
-    align-items: center; 
-    grid-template-columns: 1.35fr 3fr 1fr; 
-    width: 100%; 
-    height: 616px; 
+.Overview {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1.35fr 3fr 1fr;
+    width: 100%;
+    height: 616px;
     padding-left: 20%;
 }
 
-.overviewImage{
+.overviewImage {
     width: 369px;
     height: 416px;
     background-image: url(../assets/hamsterhomejpg.jpg);
@@ -84,23 +84,23 @@ a+a{
     background-size: cover;
 }
 
-.overviewText{
+.overviewText {
     height: 416px;
 }
 
-.overviewTextH1{
-    font-family: Dosis; 
+.overviewTextH1 {
+    font-family: Dosis;
     font-size: xx-large;
 }
 
-.overviewTextP{
-    font-family: Source Sans Pro; 
-    width: 87.4%; 
+.overviewTextP {
+    font-family: Source Sans Pro;
+    width: 87.4%;
     height: 155px;
 }
 
-.roomsDiv{
-    height: 738px; 
+.roomsDiv {
+    height: 16%;
     background-image: url(../assets/bg2.jpg);
     background-position: 00% 65%;
     background-repeat: no-repeat;
@@ -108,36 +108,43 @@ a+a{
     position: relative;
 }
 
-.RoomsCards{
-    width: 59.1%; 
-    display: grid; 
-    grid-template-columns: 1fr 1fr 1fr; 
-    margin-left: auto; 
+.RoomsCards {
+    width: 59.1%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: auto;
     margin-right: auto;
 }
 
-.card{
-    width: 95%; 
+.card {
+    width: 95%;
     height: 522px;
 }
 
-li{
+.cardImg{
+    width: 100%;
+    height: 10vw;
+    object-fit: none;
+}
+
+
+li {
     font-family: Source Sans Pro, regular;
     font-size: smaller;
     margin-bottom: 10px;
 }
 
-.pkgImg1{
+.pkgImg1 {
     width: 29.2%;
     height: 234px;
     background-image: url(../assets/hamsterwedding.jpg);
     transform: scale(.95);
     background-repeat: no-repeat;
-    background-position: 00% 10%;
-    background-size:fill;
+    background-position: 0% 10%;
+    background-size: cover;
 }
 
-.pkgImg2{
+.pkgImg2 {
     width: 29.2%;
     height: 234px;
     background-image: url(../assets/hamsterspring.jpg);
@@ -147,24 +154,24 @@ li{
     background-size: cover;
 }
 
-.pkgImg3{
+.pkgImg3 {
     width: 29.2%;
     height: 234px;
     background-image: url(../assets/hamstercheese.jpg);
     transform: scale(.95);
     background-repeat: no-repeat;
-    background-position: 50% 50%;
+    background-position: 50% 65%;
     background-size: cover;
 }
 
-.amenities{
+.amenities {
     background-image: url(../assets/bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
 }
 
-.resImg{
+.resImg {
     height: 414px;
     background-image: url(../assets/hamsterreserve.jpg);
     background-size: cover;
@@ -172,26 +179,26 @@ li{
     background-position: 50% 70%;
 }
 
-.footer{
-    height: 300px; 
-    background-color: rgba(0, 3, 36, 1); 
+.footer {
+    height: 300px;
+    background-color: rgba(0, 3, 36, 1);
     margin-top: 7.5%;
 }
 
-.footImg{
-    width: 7.4%; 
-    margin-left: auto; 
-    margin-right: auto; 
-    margin-bottom: 1%; 
-    padding-top: 1%; 
+.footImg {
+    width: 7.4%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1%;
+    padding-top: 1%;
 }
 
-.footText{
-    width: 20%; 
-    height:auto; 
-    margin-left: auto; 
-    margin-right: auto; 
-    text-align: center; 
-    margin-bottom: 1%; 
+.footText {
+    width: 20%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-bottom: 1%;
     font-family: 'Source Sans Pro';
 }

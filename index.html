@@ -14,7 +14,7 @@
 
 <body>
     <div id="nav1" style="font-family: Dosis, sans-serif;">
-        <nav class="navbar navbar-expand-lg bg-body-tertiary navbar2 fluid" style="width: 100%; padding: 0;">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary navbar2 container-fluid" style="width: 100%; padding: 0;">
             <div class="container-fluid" style="padding:0">
                 <div class="collapse navbar-collapse navbar1" id="navbarNavAltMarkup">
                     <div class="navbar-nav" style="height: 120px;">
@@ -23,7 +23,7 @@
                         <a class="nav-link" href="#Packages" style="color: white; align-self: flex-end">Packages</a>
                         <div class="container d-flex align-items-end">
                             <a class="navbar-brand" href="#">
-                                <img src="./assets/Logo.png" alt="Le Petit Maison" width="143" height="100">
+                                <img src="./assets/Logo.png" alt="Le Petit Maison" width="143" height="100" style="padding-bottom: 5%;">
                             </a>
                         </div>
                         <a class="nav-link" href="#Amenities" style="color: white; align-self: flex-end;">Amenities</a>
@@ -44,7 +44,7 @@
         </div>
     </div>
 
-    <div id="Overview" class="Overview fluid">
+    <div id="Overview" class="Overview container-fluid">
         <div class="overviewImage"></div>
         <div class="overviewText">
             <h1 class="overviewTextH1">Welcome to a Hamster's Paradise</h1>
@@ -59,7 +59,7 @@
                 Discover the satisfaction of indulging in our quality rooms, and thank you for choosing La Petite
                 Maison.
             </p>
-            <div class="overviewAwards" style="display: grid; grid-template-columns: 30% 30% 25%;">
+            <div class="overviewAwards" style="display: grid; grid-template-columns: 30% 30% 25%; padding-top: 1%;">
                 <img src="./assets/awardfinest.png" alt="Finest Award">
                 <img src="./assets/awardsatisfaction.png" alt="Satisfaction Award" style="padding-bottom: 100px">
                 <img src="./assets/awardgenuine.png" alt="Genuine Award">
@@ -74,39 +74,38 @@
         </div>
         <div class="RoomsCards">
             <div class="card rounded-0">
-                <img src="./assets/room1.jpg" class="card-img-top rounded-0 card1" alt="Room 1">
-                <div class="card-body">
-                    <h5 class="card-title">Queen Room</h5>
+                <img src="./assets/room1.jpg" class="card-img-top rounded-0 cardImg" alt="Room 1">
+                <div class="card-body d-flex flex-column">
+                    <h5 class="card-title" style="font-family: Dosis;">Queen Room</h5>
                     <h5>850 SQ FT room with city view</h5>
                     <ul>
                         <li>One queen sized bed</li>
                         <li>Seed Bar, fireplace and large balcony</li>
                         <li>Small kitchen with a refrigerator and stove</li>
                     </ul>
-                    <br>
-                    <br>
-                    <a href="#" class="btn btn-primary rounded-0">Learn More</a>
+                
+                    <a href="#" class="btn btn-primary rounded-0 mt-auto" style="width: 45.7%;">Reserve</a>
+            
                 </div>
             </div>
             <div class="card rounded-0">
-                <img src="./assets/room3.jpg" class="card-img-top card2" alt="Room 2">
-                <div class="card-body">
-                    <h5 class="card-title">King Room</h5>
+                <img src="./assets/room3.jpg" class="card-img-top rounded-0 cardImg" alt="Room 2">
+                <div class="card-body d-flex flex-column">
+                    <h5 class="card-title" style="font-family: Dosis;">King Room</h5>
                     <h5>950 SQ FT room with city view</h5>
                     <ul>
                         <li>One queen sized bed</li>
                         <li>Seed Bar, fireplace and large balcony</li>
                         <li>Small kitchen with a refrigerator and stove</li>
                     </ul>
-                    <br>
-                    <br>
-                    <a href="#" class="btn btn-primary rounded-0">Learn More</a>
+
+                    <a href="#" class="btn btn-primary rounded-0 mt-auto" style="width: 45.7%;">Reserve</a>
                 </div>
             </div>
-            <div class="card rounded-0">
-                <img src="./assets/room2.jpg" class="card-img-top card3" alt="Room 3">
-                <div class="card-body">
-                    <h5 class="card-title">Beach Side Suite</h5>
+            <div class="card rounded-0 ">
+                <img src="./assets/room2.jpg" class="card-img-top rounded-0 cardImg" alt="Room 3">
+                <div class="card-body d-flex flex-column">
+                    <h5 class="card-title" style="font-family: Dosis;">Beach Side Suite</h5>
                     <h5>1500 SQ FT Suite with beach view</h5>
                     <ul>
                         <li>One california king sized bed</li>
@@ -114,8 +113,7 @@
                         <li>Seed Bar and Coffee Station</li>
                         <li>Full kitchen with a refrigerator, stove, and island</li>
                     </ul>
-                    <br>
-                    <a href="#" class="btn btn-primary rounded-0">Learn More</a>
+                    <a href="#" class="btn btn-primary rounded-0 mt-auto" style="width: 45.7%;">Reserve</a>
                 </div>
             </div>
         </div>
@@ -169,7 +167,7 @@
                 stay we can provide.</p>
         </div>
         <div class="row"
-            style="width: 75%; font-family: 'Source Sans Pro'; display: flex; justify-items: center; align-self: center; margin-left: 12%;">
+            style="width: 75%; font-family: 'Source Sans Pro'; margin-left: auto; margin-right: auto; display: grid; grid-template-columns: 1fr 1fr 1fr 1fr; align-items: end;">
             <div class="col">
                 <div class="a-row text-center"><img src="./assets/24hour.png" alt="24 Hr" style="margin-bottom: 5%;">
                 </div>
